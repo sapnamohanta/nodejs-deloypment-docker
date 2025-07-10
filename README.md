@@ -1,69 +1,9 @@
 # nodejs-deloypment-docker
-Here's a complete `README.md` file for **Project 5: Containerize and Deploy App with Docker**, suitable for a GitHub repository. You can customize the image or upload your own output screenshot in the `images/` folder of the repo.
+
+
 
 ---
 
-```markdown
-# 🚀 Project 5: Containerize and Deploy App with Docker
-
-## 📌 Problem Statement
-Traditional application deployments are often:
-- Complex and time-consuming
-- Error-prone due to inconsistencies across environments
-- Difficult to scale and manage
-
-## 🎯 Objective
-Containerize a **Node.js** or **Python** web application using Docker and deploy it on an **AWS EC2** instance to ensure:
-- Environment consistency
-- Portability
-- Scalability
-
----
-
-## 🧰 Tech Stack
-
-- **Docker**
-- **AWS EC2**
-- **Node.js** or **Python (Flask/Django/FastAPI)**
-- **Dockerfile**
-- `docker-compose` *(optional)*
-
----
-
-## 📁 Project Structure
-
-```
-
-project/
-│
-├── app/                    # Your Node.js or Python application
-│   ├── app.py / index.js
-│   └── requirements.txt / package.json
-│
-├── Dockerfile              # Docker build instructions
-├── docker-compose.yml      # (Optional) Multi-container setup
-└── README.md               # Project description
-
-````
-
----
-
-## 🐳 Dockerfile Example (Python Flask)
-
-```Dockerfile
-FROM python:3.10-slim
-
-WORKDIR /app
-
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
-
-COPY . .
-
-CMD ["python", "app.py"]
-````
-
----
 
 ## 🚀 Deployment Steps
 

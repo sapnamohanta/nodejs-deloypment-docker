@@ -51,7 +51,7 @@ Now your app should be accessible at:
 ## ✅ Expected Outcome
 
 * A containerized application successfully deployed and running on an AWS EC2 instance.
-* Scalable and consistent environment via Docker.
+* Scalable and consistent environment with the help of Docker.
 
 ---
 
